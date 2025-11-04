@@ -3,7 +3,7 @@ p {
     }
     
     body {
-      background-color: lightgray;
+      background-color: rgb(156, 217, 245);
     }
     
     h1 {
@@ -17,7 +17,7 @@ p {
 
     table {
       width: 100%;
-      border-collapse: collapse;
+      border-collapse: separate;
     }
     
     th, td {
@@ -47,8 +47,9 @@ p {
     }
     
     input[type="submit"] {
-      background-color: #4CAF50;
-      color: white;
+      background-color: #faf605;
+      color: black;
+      font-weight: bold;
       padding: 10px;
       border: none;
       border-radius: 4px;
@@ -56,5 +57,6 @@ p {
     }
     
     input[type="submit"]:hover {
-      background-color: #45a049;
+      background-color: #8b8d03;
+      color: white;
     }
