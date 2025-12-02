@@ -1,0 +1,54 @@
+body {
+  background-color: #537d90;
+  margin: 0px;
+  padding: 0;
+}
+
+nav {
+  background-color: black;
+  padding-bottom: 10px;
+  border-bottom: 1px solid white;
+  font-size: 25px;
+  align-items: center;
+  color: white;
+}
+
+a {
+  color: white;
+  background-color: black;
+  text-decoration: none;
+}
+
+.Text_box {
+  background-color: white;
+  width: 1000px;
+  border: 6px solid rgb(189, 188, 188);
+  border-radius: 25px;
+  padding: 50px;
+  margin: auto;
+  margin-bottom: 20px;
+  margin-top: 20px;
+}
+
+h1 {
+  margin-bottom: 20px;
+}
+
+h2 {
+  margin-bottom: 10px;
+}
+
+table,
+th,
+td {
+  margin-top: 20px;
+}
+
+.footer {
+  position: relative;
+  background-color: purple;
+  color: white;
+  left: 0;
+  bottom: 0;
+  width: 100%;
+}
