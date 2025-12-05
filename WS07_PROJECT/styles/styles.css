@@ -1,5 +1,6 @@
 body {
   background-color: #537d90;
+  background-image: linear-gradient(#537d90, #379ece);
   margin: 0px;
   padding: 0;
   height: 100%;
@@ -43,6 +44,8 @@ ul li a:hover {
   margin: auto;
   margin-bottom: 20px;
   margin-top: 20px;
+  text-shadow: 1px 1px 3px rgb(27, 3, 131);
+  box-shadow: 5px 5px 5px rgb(37, 37, 37);
 }
 
 h1 {
@@ -57,6 +60,7 @@ table {
   font-family: Arial, Helvetica, sans-serif;
   border-collapse: collapse;
   width: 100%;
+  filter: drop-shadow(8px 8px 10px gray);
 }
 
 td, th {
@@ -104,4 +108,18 @@ th {
   background-color: white;
   color: black;
   float: left;
+}
+
+#seuraava:hover {
+  background-color: purple;
+  padding: 6px;
+  border-radius: 5px;
+  color: white;
+}
+
+#edellinen:hover {
+  background-color: purple;
+  padding: 6px;
+  border-radius: 5px;
+  color: white;
 }
