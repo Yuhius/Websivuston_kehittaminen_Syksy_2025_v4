@@ -46,6 +46,8 @@ ul li a:hover {
   margin-top: 20px;
   text-shadow: 1px 1px 3px rgb(27, 3, 131);
   box-shadow: 5px 5px 5px rgb(37, 37, 37);
+  height: auto;
+  overflow: auto;
 }
 
 h1 {
@@ -122,4 +124,28 @@ th {
   padding: 6px;
   border-radius: 5px;
   color: white;
+}
+
+.vasen {
+  width: 50%;
+  float: left;
+  margin: 0px 15px 15px 0px;
+}
+
+.vasen2 {
+  width: 31%;
+  float: left;
+  margin: 0px 15px 15px 0px;
+}
+
+.oikea {
+  width: 50%;
+  float: right;
+  margin: 0px 0px 15px 15px;
+}
+
+.oikea2 {
+  width: 30%;
+  float: right;
+  margin: 0px 0px 15px 15px;
 }
