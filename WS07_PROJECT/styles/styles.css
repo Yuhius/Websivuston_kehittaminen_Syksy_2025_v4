@@ -31,20 +31,31 @@ ul li a {
   font-family: Arial, Helvetica, sans-serif;
 }
 
+ul li a.active {
+  background-color: white;
+  color: black;
+}
+
 ul li a:hover {
   background-color: purple;
 }
 
+@media screen and (max-width: 480px) {
+  ul li a {
+    text-align: center;
+    float: none;
+  }
+}
+
 .Text_box {
   background-color: white;
-  width: 1000px;
+  max-width: 65%;
   border: 6px solid rgb(189, 188, 188);
   border-radius: 25px;
   padding: 50px;
   margin: auto;
   margin-bottom: 20px;
   margin-top: 20px;
-  text-shadow: 1px 1px 3px rgb(27, 3, 131);
   box-shadow: 5px 5px 5px rgb(37, 37, 37);
   height: auto;
   overflow: auto;
@@ -65,17 +76,24 @@ table {
   filter: drop-shadow(8px 8px 10px gray);
 }
 
-td, th {
+td,
+th {
   border: 1px solid #ddd;
   padding: 8px;
 }
 
-tr:nth-child(even){background-color: #ecf803;}
+tr:nth-child(even) {
+  background-color: #ecf803;
+}
 
-tr:nth-child(odd){background-color: #cccc03;}
+tr:nth-child(odd) {
+  background-color: #cccc03;
+}
 
-tr:hover {background-color: #616001;
-color: white;}
+tr:hover {
+  background-color: #616001;
+  color: white;
+}
 
 th {
   padding-top: 12px;
@@ -126,6 +144,21 @@ th {
   color: white;
 }
 
+img {
+  transition: transform 0.5s ease;
+  cursor: pointer;
+  border-radius: 8px;
+  height: auto;
+  display: flex;
+  justify-content: flex-start;
+  position: relative;
+  flex-wrap: wrap;
+}
+
+img:hover {
+  transform: scale(1.2);
+}
+
 .vasen {
   width: 50%;
   float: left;
@@ -148,4 +181,52 @@ th {
   width: 30%;
   float: right;
   margin: 0px 0px 15px 15px;
+}
+
+@media screen and (max-width: 768px) {
+  .vasen {
+    width: 50%;
+  }
+}
+
+@media screen and (max-width: 480px) {
+  .vasen {
+    width: 100%;
+  }
+}
+
+@media screen and (max-width: 768px) {
+  .vasen2 {
+    width: 31%;
+  }
+}
+
+@media screen and (max-width: 480px) {
+  .vasen2 {
+    width: 100%;
+  }
+}
+
+@media screen and (max-width: 768px) {
+  .oikea {
+    width: 50%;
+  }
+}
+
+@media screen and (max-width: 480px) {
+  .oikea {
+    width: 100%;
+  }
+}
+
+@media screen and (max-width: 768px) {
+  .oikea2 {
+    width: 30%;
+  }
+}
+
+@media screen and (max-width: 480px) {
+  .oikea2 {
+    width: 100%;
+  }
 }
